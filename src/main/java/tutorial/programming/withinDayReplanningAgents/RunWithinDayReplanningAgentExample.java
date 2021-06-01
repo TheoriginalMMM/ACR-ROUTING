@@ -15,7 +15,8 @@
  *   (at your option) any later version.                                   *
  *   See also COPYING, LICENSE and WARRANTY file                           *
  *                                                                         *
- * *********************************************************************** */
+ * *********************************************************************** *//*
+
 
 package tutorial.programming.withinDayReplanningAgents;
 
@@ -114,14 +115,16 @@ public class RunWithinDayReplanningAgentExample {
 
 }
 
+*/
 /**
  * See {@link tutorial.mobsim.ownMobsimAgentWithPerception} and {@link tutorial.mobsim.ownMobsimAgentUsingRouter} for
  * more complete examples.
  *
  * @author nagel
  *
- */
-class MyAgent implements MobsimDriverAgent {
+ *//*
+
+public class MyAgent implements MobsimDriverAgent {
 	private static Logger log = Logger.getLogger("MyAgent") ;
 
 	private MobsimVehicle vehicle;
@@ -136,7 +139,7 @@ class MyAgent implements MobsimDriverAgent {
 
 	private double activityEndTime = 1. ;
 
-	MyAgent( Scenario sc, EventsManager ev, Netsim netsim, Id<Link> startLinkId, MobsimVehicle veh ) {
+	public MyAgent(Scenario sc, EventsManager ev, Netsim netsim, Id<Link> startLinkId, MobsimVehicle veh) {
 		log.info( "calling MyAgent" ) ;
 		this.sc = sc ;
 		this.ev = ev ;
@@ -263,3 +266,4 @@ class MyAgent implements MobsimDriverAgent {
 	}
 
 }
+*/
