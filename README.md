@@ -3,7 +3,7 @@
 # matsim-code-examples
 A repository containing code examples around MATSim
 ### To understeand the aim of this project:
-You find a Vilguarisation video [here] (https://drive.google.com/file/d/1FKPkjKrzFByyfWnAEkZ8QQ613KTGDguJ/view?usp=sharing)
+You find a Vilguarisation video [here](https://drive.google.com/file/d/1FKPkjKrzFByyfWnAEkZ8QQ613KTGDguJ/view?usp=sharing)
 
 ### Abstract : 
 
